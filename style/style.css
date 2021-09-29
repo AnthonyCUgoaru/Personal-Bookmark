@@ -1,0 +1,51 @@
+body
+{
+	margin: 0px;
+	padding: 10px;/* padding in all direction */
+	font-family: Arial,'Lato',sans-serif ;
+	min-width: 400px;
+}
+
+input
+{
+	width: 100%; 
+	padding: 10px;
+	border: 1px solid rgb(29, 150, 31);
+	box-sizing: border-box ;
+
+}
+
+ul
+{
+	margin-top:20px;
+	list style: none;/*removes bullets*/
+	padding: 0px;
+}
+
+li
+{
+	margin-top: 5px;
+}
+
+ a
+{
+	color:rgb(29, 150, 31)
+}
+
+button
+{
+	margin-top: 5px;
+	background-color: rgb(29, 150, 31);
+	color: white;
+	padding: 10px 20px ; /*10px of y axis(top and bottom) and 20px for x axis(left and right) */
+	border: 1px solid rgb(29, 150, 31);
+	font-weight: bold;
+}
+
+#delete-btn
+{
+	color:rgb(29, 150, 31);
+	background-color: rgb(255, 255, 255);
+	border: 1px solid ;
+
+}
